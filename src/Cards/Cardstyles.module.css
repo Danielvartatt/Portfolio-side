@@ -1,0 +1,12 @@
+.nav {
+  border: none;
+}
+.NavBack {
+  background-color: #496c55;
+}
+.NavButton {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  padding: 1rem;
+}

@@ -1,0 +1,10 @@
+.Page {
+  margin: 3rem;
+  display: grid;
+  gap: 20rem;
+}
+/*900 x 609*/
+
+h1 {
+  font-size: 48px;
+}

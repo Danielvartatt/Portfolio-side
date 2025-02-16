@@ -1,0 +1,46 @@
+.button {
+  background-color: #7ca61a50;
+  font-size: 22px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+.PageCard {
+  border: solid;
+  box-shadow: 35px 35px;
+  width: 900px;
+  height: 609px;
+  background-color: white;
+  font-size: 38px;
+  text-align: center;
+}
+.PageCardkontakt {
+  border: solid;
+  box-shadow: 35px 35px;
+  width: 900px;
+  height: 332px;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.pagebox {
+  display: grid;
+}
+.imgcontact {
+  height: 51;
+  width: auto;
+}
+.MineSkilsstlye {
+  display: grid;
+}
+.PageCardaboutme {
+  border: solid;
+  box-shadow: 35px 35px;
+  width: 900px;
+  height: 609px;
+  background-color: white;
+  font-size: 26px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
