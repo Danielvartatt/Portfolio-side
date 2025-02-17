@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./Cardstyles.module.css";
 export default function Header() {
   return (
-    <div className={styles.NavBack}>
+    <>
       <nav className={styles.Nav}>
         <Link
           to="https://github.com/Danielvartatt"
@@ -17,6 +17,6 @@ export default function Header() {
           Hjem
         </Link>
       </nav>
-    </div>
+    </>
   );
 }

@@ -1,12 +1,12 @@
-.nav {
-  border: none;
-}
-.NavBack {
-  background-color: #496c55;
+.Nav {
+  background-color: #1e260d80;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 .NavButton {
   text-decoration: none;
   color: #fff;
-  font-size: 22px;
+  font-size: 26px;
   padding: 1rem;
 }
