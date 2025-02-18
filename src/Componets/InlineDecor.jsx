@@ -3,38 +3,37 @@ import styles from "./Component.module.css";
 export default function InlineDecor() {
   return (
     <>
-      <div
-        className={styles.SquareInline}
-        style={{
-          position: "relative",
-          left: 188,
-          top: 184,
-        }}
-      ></div>
-      <div
-        className={styles.SquareInline}
-        style={{
-          position: "absolute",
-          left: 21,
-          top: 860,
-        }}
-      ></div>
-      <div
-        className={styles.SquareInline}
-        style={{
-          position: "relative",
-          left: 188,
-          top: 184,
-        }}
-      ></div>
-      <div
-        className={styles.SquareInline}
-        style={{
-          position: "relative",
-          left: 188,
-          top: 184,
-        }}
-      ></div>
+      {" "}
+      <div>
+        <div
+          className={styles.SquareInline}
+          style={{
+            position: "absolute",
+            rotate: "30deg",
+            left: 600,
+            top: 488,
+            zIndex: 1,
+          }}
+        ></div>
+        <div
+          className={styles.SquareInline}
+          style={{
+            position: "absolute",
+            rotate: "64deg",
+            left: 681,
+            top: 88,
+          }}
+        ></div>
+        <div
+          className={styles.SquareInline}
+          style={{
+            position: "absolute",
+            rotate: "64deg",
+            left: 46,
+            top: 299,
+          }}
+        ></div>
+      </div>
     </>
   );
 }

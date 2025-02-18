@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+
 import "./index.css";
 import { MainPage, ProPage, ProSidePage } from "./pages/index.jsx";
 import App from "./App.jsx";

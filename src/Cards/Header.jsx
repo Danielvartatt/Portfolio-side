@@ -13,8 +13,11 @@ export default function Header() {
         <Link to="/Prosjekt/" className={styles.NavButton}>
           Prosjekt Arkiv
         </Link>
-        <Link to="/" className={styles.NavButton}>
+        <Link to="/" className={styles.NavButtonInportant}>
           Hjem
+        </Link>
+        <Link to="" className={styles.NavButtonDownload}>
+          Last ned CV
         </Link>
       </nav>
     </>

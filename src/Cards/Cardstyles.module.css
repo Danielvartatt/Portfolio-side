@@ -9,4 +9,32 @@
   color: #fff;
   font-size: 26px;
   padding: 1rem;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.NavButton:hover {
+  color: #ff0000;
+}
+
+.NavButtonInportant {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  padding: 1rem;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.NavButtonInportant:hover {
+  color: #0000ff;
+}
+.NavButtonDownload {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  padding: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navImg {
+  width: 26px;
+  height: 26px;
 }

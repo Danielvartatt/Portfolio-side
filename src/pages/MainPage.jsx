@@ -11,17 +11,21 @@ export function MainPage() {
   return (
     <div>
       <OutlineDecor />
+      <InlineDecor />
       <div className={styles.Page}>
         <div>
           <div>
             <AboutMe />
           </div>
+          <div className={styles.Spacebetween}></div>
           <div>
             <OmMeg />
           </div>
+          <div className={styles.Spacebetween}></div>
           <div>
             <MineSkils />
           </div>
+          <div className={styles.Spacebetween}></div>
           <div>
             <KontaktMeg />
           </div>

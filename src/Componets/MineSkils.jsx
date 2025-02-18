@@ -9,7 +9,7 @@ export default function MineSkils() {
       }}
     >
       <div className={styles.SkillPageCard}>
-        <h2 style={{ textAlign: "center" }}>Mine Skills</h2>
+        <h2 style={{ textAlign: "center" }}>Mine Ferdigheter</h2>
         <div className={styles.Gridbox}>
           <div className={styles.GridIcon}>
             <img

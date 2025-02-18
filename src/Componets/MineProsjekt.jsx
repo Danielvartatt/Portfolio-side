@@ -1,4 +1,6 @@
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Prosjekt = {
   prosjekt1: {
     title: "Prosjekt 1",
@@ -12,14 +14,18 @@ const Prosjekt = {
     title: "Prosjekt 3",
     description: "Om prosjektet...",
   },
+  prosjekt4: {
+    title: "Prosjekt 4",
+    description: "Om prosjektet...",
+  },
 };
 
 export default function MineProsjekt() {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slideToScroll: 1,
   };
   return (
@@ -36,3 +42,6 @@ export default function MineProsjekt() {
     </div>
   );
 }
+//Denne siden skal du prøve på en ny React Dokument for å få det til å fungere,
+//det er vikitg at du tester ut at den fungere før du deployer den.
+//Tips: det Kan ha noe med hvordan index.css og Apps.css brukest. Du kan teste det ut

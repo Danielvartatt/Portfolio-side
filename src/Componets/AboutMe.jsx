@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div className={styles.PageCard}>
       <div className={styles.Gridaboutme}>
-        <div>
+        <div className={styles.Font24}>
           <h2>Hei,</h2>
           <p>Mitt navn er Daniel</p>
           <Link>
@@ -18,38 +18,6 @@ export default function AboutMe() {
             src="./src/assets/Image/backimg.jpg"
             className={styles.imgAboutme}
           ></img>
-        </div>
-      </div>
-      <div>
-        <div>
-          <div
-            className={styles.SquareInline}
-            style={{
-              position: "absolute",
-              rotate: "30deg",
-              left: 600,
-              top: 488,
-              zIndex: 1,
-            }}
-          ></div>
-          <div
-            className={styles.SquareInline}
-            style={{
-              position: "absolute",
-              rotate: "64deg",
-              left: 681,
-              top: 88,
-            }}
-          ></div>
-          <div
-            className={styles.SquareInline}
-            style={{
-              position: "absolute",
-              rotate: "64deg",
-              left: 46,
-              top: 299,
-            }}
-          ></div>
         </div>
       </div>
     </div>
