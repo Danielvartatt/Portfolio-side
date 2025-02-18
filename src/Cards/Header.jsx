@@ -10,10 +10,10 @@ export default function Header() {
         >
           Gitbub
         </Link>
-        <Link to="/Prosjekt/" className={styles.NavButton}>
+        <Link to="/Portfolio-side/Prosjekt/" className={styles.NavButton}>
           Prosjekt Arkiv
         </Link>
-        <Link to="/" className={styles.NavButtonInportant}>
+        <Link to="" className={styles.NavButtonInportant}>
           Hjem
         </Link>
         <Link to="" className={styles.NavButtonDownload}>

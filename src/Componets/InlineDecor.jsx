@@ -3,35 +3,46 @@ import styles from "./Component.module.css";
 export default function InlineDecor() {
   return (
     <>
-      {" "}
       <div>
         <div
           className={styles.SquareInline}
           style={{
             position: "absolute",
             rotate: "30deg",
-            left: 600,
-            top: 488,
-            zIndex: 1,
+            left: 356,
+            top: 253,
           }}
+          id="1 - om meg"
+        ></div>
+        <div
+          className={styles.CircleSmallInline}
+          style={{
+            position: "absolute",
+            rotate: "30deg",
+            left: 496,
+            top: 450,
+          }}
+          id="2 - om meg"
+        ></div>
+        <div
+          className={styles.SquareSmallInline}
+          style={{
+            position: "absolute",
+            rotate: "30deg",
+            left: 50,
+            top: 600,
+          }}
+          id="3 - om meg"
         ></div>
         <div
           className={styles.SquareInline}
           style={{
             position: "absolute",
-            rotate: "64deg",
-            left: 681,
-            top: 88,
+            rotate: "30deg",
+            left: 900,
+            top: 50,
           }}
-        ></div>
-        <div
-          className={styles.SquareInline}
-          style={{
-            position: "absolute",
-            rotate: "64deg",
-            left: 46,
-            top: 299,
-          }}
+          id=" 4 - om meg"
         ></div>
       </div>
     </>

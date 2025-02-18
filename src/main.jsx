@@ -7,15 +7,18 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "Portfolio-side",
     element: <App />,
     children: [
       {
         index: true,
         element: <MainPage />,
       },
-      { path: "Prosjekt/", element: <ProPage /> },
-      { path: "/Prosjekt/:ProsjektName", element: <ProSidePage /> },
+      { path: "/Portfolio-side/Prosjekt/", element: <ProPage /> },
+      {
+        path: "Portfolio-side/Prosjekt/:ProsjektName",
+        element: <ProSidePage />,
+      },
     ],
   },
 ]);

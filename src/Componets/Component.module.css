@@ -62,6 +62,7 @@
 .CircleSmallInline {
   height: 140px;
   width: 140px;
+  border-radius: 140px;
   background-color: #61d18180;
   overflow: visible;
   z-index: -1;
@@ -84,7 +85,7 @@
 .CircleOutline {
   height: 188px;
   width: 188px;
-  background-color: #61d18180;
+  background-color: #62d082;
   overflow: visible;
   border-radius: 188px;
   z-index: -1;
