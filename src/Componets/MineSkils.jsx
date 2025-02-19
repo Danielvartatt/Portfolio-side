@@ -13,23 +13,23 @@ export default function MineSkils() {
         <div className={styles.Gridbox}>
           <div className={styles.GridIcon}>
             <img
-              src="./src/assets/Image/css.png"
+              src="./src/assets/Image/Kompetanse/css.png"
               className={styles.Imagestyle}
             ></img>
             <img
-              src="./src/assets/Image/html.png"
+              src="./src/assets/Image/Kompetanse/html.png"
               className={styles.Imagestyle}
             ></img>
             <img
-              src="./src/assets/Image/placeholder.png"
+              src="./src/assets/Image/Kompetanse/placeholder.png"
               className={styles.Imagestyle}
             ></img>
             <img
-              src="./src/assets/Image/react.png"
+              src="./src/assets/Image/Kompetanse/react.png"
               className={styles.Imagestyle}
             ></img>
             <img
-              src="./src/assets/Image/figma.png"
+              src="./src/assets/Image/Kompetanse/figma.png"
               className={styles.Imagestyle}
             ></img>
           </div>

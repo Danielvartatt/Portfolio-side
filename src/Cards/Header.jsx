@@ -4,21 +4,20 @@ export default function Header() {
   return (
     <>
       <nav className={styles.Nav}>
-        <Link
-          to="https://github.com/Danielvartatt"
-          className={styles.NavButton}
-        >
-          Gitbub
-        </Link>
-        <Link to="/Portfolio-side/Prosjekt/" className={styles.NavButton}>
-          Prosjekt Arkiv
-        </Link>
-        <Link to="" className={styles.NavButtonInportant}>
-          Hjem
-        </Link>
-        <Link to="" className={styles.NavButtonDownload}>
-          Last ned CV
-        </Link>
+        <div className={styles.NavDiv}>
+          <Link to="/Portfolio-side/Prosjekt/" className={styles.NavButton}>
+            Prosjekt Arkiv
+          </Link>
+          <Link to="" className={styles.NavButton}>
+            Hjem
+          </Link>
+          <Link className={styles.NavButton}> Kontakt Meg</Link>
+        </div>
+        <div>
+          <Link to="" className={`${styles.NavButtonBold} ${styles.NavButton}`}>
+            Last ned CV
+          </Link>
+        </div>
       </nav>
     </>
   );

@@ -1,0 +1,23 @@
+.carouselContainer {
+  outline: black solid;
+  margin: auto;
+  width: 40vw;
+}
+.ProsjektCardData {
+  opacity: 0%;
+  color: hsl(0, 0%, 70%);
+  /*background-color: hsl(120, 100%, 30%);*/
+
+  outline: red solid;
+  text-align: center;
+}
+.ProsjektCardData:hover {
+  opacity: 100%;
+}
+.CardProdjekt {
+  text-align: center;
+}
+.ProsjektCardDataImg {
+  width: 559px;
+  height: 296.5px;
+}

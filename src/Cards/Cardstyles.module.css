@@ -3,37 +3,32 @@
   position: sticky;
   top: 0;
   overflow: hidden;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.NavDiv {
+  display: flex;
+
+  gap: 1rem;
 }
 .NavButton {
   text-decoration: none;
   color: #fff;
   font-size: 26px;
-  padding: 1rem;
   font-weight: lighter;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .NavButton:hover {
-  color: #ff0000;
+  text-decoration: underline;
+  color: hsl(0, 0%, 90%);
+}
+.NavButtonBold {
+  font-weight: bolder !important;
 }
 
-.NavButtonInportant {
-  text-decoration: none;
-  color: #fff;
-  font-size: 26px;
-  padding: 1rem;
-  font-weight: lighter;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-.NavButtonInportant:hover {
-  color: #0000ff;
-}
-.NavButtonDownload {
-  text-decoration: none;
-  color: #fff;
-  font-size: 26px;
-  padding: 1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 .navImg {
   width: 26px;
   height: 26px;

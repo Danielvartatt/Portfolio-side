@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./Component.module.css";
 export default function KontaktMeg() {
   return (
-    <div className={styles.PageCardkontakt}>
+    <div className={styles.PageCardkontakt} id="Manul">
       <h2> Kontakt Informasjon </h2>
       <div className={styles.Contactme}>
         <img
