@@ -63,11 +63,7 @@ export default function OutlineDecor() {
         style={{ position: "absolute", left: 684, top: 1896, rotate: "55deg" }}
         id="12"
       ></div>
-      <div
-        className={styles.CircleOutline}
-        style={{ position: "absolute", left: 799, top: 2011, rotate: "29deg" }}
-        id="13"
-      ></div>
+
       <div
         className={styles.SquareOutline}
         style={{ position: "absolute", left: 1111, top: 2222, rotate: "16deg" }}
@@ -94,9 +90,24 @@ export default function OutlineDecor() {
         id="19"
       ></div>
       <div
-        className={styles.CircleOutline}
+        className={styles.SquaresmallOutline}
         style={{ position: "absolute", left: 356, top: 2700, rotate: "58deg" }}
         id="20"
+      ></div>
+      <div
+        className={styles.CircleOutline}
+        style={{ position: "absolute", left: 253, top: 3000, rotate: "58deg" }}
+        id="21"
+      ></div>
+      <div
+        className={styles.Triangle}
+        style={{ position: "absolute", left: 100, top: 3200, rotate: "58deg" }}
+        id="22"
+      ></div>
+      <div
+        className={styles.SquareOutline}
+        style={{ position: "absolute", left: 356, top: 3333, rotate: "58deg" }}
+        id="23"
       ></div>
     </>
   );
