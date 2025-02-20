@@ -17,11 +17,11 @@ export default function MineSkils() {
               className={styles.Imagestyle}
             ></img>
             <img
-              src="./src/assets/Image/Kompetanse/html.png"
+              src="./src/assets/Image/Kompetanse/HTML.png"
               className={styles.Imagestyle}
             ></img>
             <img
-              src="./src/assets/Image/Kompetanse/placeholder.png"
+              src="./src/assets/Image/Kompetanse/JavaScript.png"
               className={styles.Imagestyle}
             ></img>
             <img

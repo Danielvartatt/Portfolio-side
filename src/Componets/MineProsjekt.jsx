@@ -7,10 +7,11 @@ import { Link } from "react-router-dom";
 const Prosjekt = {
   prosjekt1: {
     title: "Meny oppgave",
-    description: "Meny oppgaven, består av 2 deler.",
+    description: "Meny oppgaven, består av 2 deler. 1. Data og 2. Render",
     image: "./src/assets/Image/Prosjekt/placeholder.png",
     alt: "Placeholder image",
     id: 1,
+    link: "https://github.com/Danielvartatt/meny-oppgave-16.01.2025",
   },
   prosjekt2: {
     title: "Prosjekt 2",
@@ -18,33 +19,26 @@ const Prosjekt = {
     image: "./src/assets/Image/Prosjekt/github.jpg",
     alt: "Placeholder image",
     id: 2,
+    link: "",
   },
   prosjekt3: {
-    title: "Prosjekt 3",
+    title: "Portfolio side Github",
     description: "Om prosjektet...",
     image: "./src/assets/Image/Prosjekt/Gitoppgave.jpg",
     alt: "Placeholder image",
     id: 3,
+    link: "https://github.com/Danielvartatt/Portfolio-side",
   },
   prosjekt4: {
-    title: "Prosjekt 4",
-    description: "Om prosjektet...",
-    image: "./src/assets/Image/Prosjekt/github.jpg",
-    alt: "Placeholder image",
+    title: "Portfolio side Figma",
+    description: "Figma siden med Prototype Side",
+    image: "./src/assets/Image/Prosjekt/FigmaPage.JPG",
+    alt: "an image from the Figma page",
     id: 4,
-  },
-  prosjekt5: {
-    title: "Arbeids Arkiv",
-    description: (
-      <Link to="/Portfolio-side/Prosjekt/" className={styles.LinkButton}>
-        Prosjekt Arkiv
-      </Link>
-    ),
-    image: "./src/assets/Image/Prosjekt/pallascat.jpg",
-    alt: "Placeholder image",
-    id: 5,
+    link: "",
   },
 };
+//kan kanskje ha andre Bilder, men det må du sjå på seinare
 //når du endre på
 export default function MineProsjekt() {
   const settings = {
@@ -67,15 +61,21 @@ export default function MineProsjekt() {
               alignItems: "center",
             }}
           >
-            <img
-              src={`${value.image}`}
-              className={styles.ProsjektCardDataImg}
-              alt={`${value.alt}`}
-            ></img>
-            <h3>{value.title}</h3>
-            <div className={styles.ProsjektCardData}>
-              <h3>{value.title}</h3>
-              <p>{value.description}</p>
+            <div className={styles.CardProdjektContainer}>
+              <div>
+                <img
+                  src={`${value.image}`}
+                  className={styles.ProsjektCardDataImg}
+                  alt={`${value.alt}`}
+                ></img>
+                <div className={styles.ProsjektCardData}>
+                  <h3>{value.title}</h3>
+                  <p>{value.description}</p>
+                  <Link to={value.link} className={styles.ProsjektLink}>
+                    Til Siden
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         ))}

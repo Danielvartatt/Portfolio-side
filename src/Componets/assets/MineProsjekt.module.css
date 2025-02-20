@@ -1,23 +1,34 @@
 .carouselContainer {
-  outline: black solid;
   margin: auto;
   width: 40vw;
 }
+.CardProdjektContainer {
+  width: 559px;
+  height: 296.5px;
+}
 .ProsjektCardData {
+  color: #ffff;
   opacity: 0%;
-  color: hsl(0, 0%, 70%);
-  /*background-color: hsl(120, 100%, 30%);*/
-
-  outline: red solid;
+  background-color: #cadd9f;
   text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 559px;
 }
 .ProsjektCardData:hover {
   opacity: 100%;
 }
 .CardProdjekt {
   text-align: center;
+  color: #ffff;
 }
 .ProsjektCardDataImg {
   width: 559px;
   height: 296.5px;
+  z-index: -1;
+  position: absolute;
+}
+.ProsjektLink {
+  color: white;
+  text-decoration: solid;
 }

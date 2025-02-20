@@ -5,18 +5,27 @@ export default function Header() {
     <>
       <nav className={styles.Nav}>
         <div className={styles.NavDiv}>
-          <Link to="/Portfolio-side/Prosjekt/" className={styles.NavButton}>
-            Prosjekt Arkiv
-          </Link>
           <Link to="" className={styles.NavButton}>
             Hjem
           </Link>
-          <Link className={styles.NavButton}> Kontakt Meg</Link>
+          <Link to="/Portfolio-side/Prosjekt/" className={styles.NavButton}>
+            Prosjekter
+          </Link>
+
+          <Link to="/Portfolio-side/Kontaktmeg/" className={styles.NavButton}>
+            Kontakt Meg
+          </Link>
         </div>
         <div>
-          <Link to="" className={`${styles.NavButtonBold} ${styles.NavButton}`}>
-            Last ned CV
-          </Link>
+          <div>
+            <a
+              href="./assets/Nedlastninger/CV.jpg"
+              download="CV.jpg"
+              className={`${styles.NavButtonBold} ${styles.NavButton}`}
+            >
+              <p>Last ned CV</p>
+            </a>
+          </div>
         </div>
       </nav>
     </>
