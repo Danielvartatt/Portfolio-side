@@ -35,7 +35,7 @@ const Prosjekt = {
     image: "./src/assets/Image/Prosjekt/FigmaPage.JPG",
     alt: "an image from the Figma page",
     id: 4,
-    link: "",
+    link: "https://www.figma.com/design/lmz3MtF5ea6YuMiiYNn4FH/Portfolio?node-id=400-499&t=daAbUWnwguaU8F5D-1 ",
   },
 };
 //kan kanskje ha andre Bilder, men det må du sjå på seinare
